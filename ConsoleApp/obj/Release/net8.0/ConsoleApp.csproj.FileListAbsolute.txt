@@ -1,0 +1,14 @@
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\bin\Release\net8.0\ConsoleApp.exe
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\bin\Release\net8.0\ConsoleApp.deps.json
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\bin\Release\net8.0\ConsoleApp.runtimeconfig.json
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\bin\Release\net8.0\ConsoleApp.dll
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\bin\Release\net8.0\ConsoleApp.pdb
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.AssemblyInfoInputs.cache
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.AssemblyInfo.cs
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.csproj.CoreCompileInputs.cache
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.dll
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\refint\ConsoleApp.dll
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.pdb
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ConsoleApp.genruntimeconfig.cache
+D:\Martin\OneDrive\Code\C#\ConsoleApp\ConsoleApp\obj\Release\net8.0\ref\ConsoleApp.dll

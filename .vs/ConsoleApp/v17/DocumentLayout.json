@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Martin\\Code\\C#\\ConsoleApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|d:\\martin\\code\\c#\\consoleapp\\consoleapp\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\testclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|d:\\martin\\code\\c#\\consoleapp\\consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|d:\\martin\\code\\c#\\consoleapp\\consoleapp\\striverdsa\\repeatandmissingnumberarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\striverdsa\\repeatandmissingnumberarray.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|d:\\martin\\code\\c#\\consoleapp\\consoleapp\\striverdsa\\majorityelementleetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\striverdsa\\majorityelementleetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|d:\\martin\\code\\c#\\consoleapp\\consoleapp\\striverdsa\\countinvesionsleetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94AD327C-1AE1-4123-AAA5-A15C8F52D663}|ConsoleApp\\ConsoleApp.csproj|solutionrelative:consoleapp\\striverdsa\\countinvesionsleetcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\Program.cs",
+              "ToolTip": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\Program.cs",
+              "RelativeToolTip": "ConsoleApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAhwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-01-07T17:37:06.609Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepeatAndMissingNumberArray.cs",
+              "DocumentMoniker": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\StriverDsa\\RepeatAndMissingNumberArray.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\StriverDsa\\RepeatAndMissingNumberArray.cs",
+              "ToolTip": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\StriverDsa\\RepeatAndMissingNumberArray.cs",
+              "RelativeToolTip": "ConsoleApp\\StriverDsa\\RepeatAndMissingNumberArray.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T16:44:16.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MajorityElementLeetcode.cs",
+              "DocumentMoniker": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\StriverDsa\\MajorityElementLeetcode.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\StriverDsa\\MajorityElementLeetcode.cs",
+              "ToolTip": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\StriverDsa\\MajorityElementLeetcode.cs",
+              "RelativeToolTip": "ConsoleApp\\StriverDsa\\MajorityElementLeetcode.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T12:11:58.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CountInvesionsLeetcode.cs",
+              "DocumentMoniker": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\StriverDsa\\CountInvesionsLeetcode.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\StriverDsa\\CountInvesionsLeetcode.cs",
+              "ToolTip": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\StriverDsa\\CountInvesionsLeetcode.cs",
+              "RelativeToolTip": "ConsoleApp\\StriverDsa\\CountInvesionsLeetcode.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:47:18.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestClass.cs",
+              "DocumentMoniker": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\TestClass.cs",
+              "RelativeDocumentMoniker": "ConsoleApp\\TestClass.cs",
+              "ToolTip": "D:\\Martin\\Code\\C#\\ConsoleApp\\ConsoleApp\\TestClass.cs",
+              "RelativeToolTip": "ConsoleApp\\TestClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T18:18:14.046Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

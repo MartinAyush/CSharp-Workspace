@@ -1,0 +1,18 @@
+﻿Array
+String
+List - Dynamic Array 
+
+SortedList - Key value pair - sorted
+HashTable - key value pair
+ArrayList - T datatype = use when you want to store different result in a single array. i.e. Array[object] not anonymous object.
+
+Stack
+Queue
+
+unordered_set(C++) = HashSet(C#)
+set(C++) = SortedSet(C#)
+unordered_map(C++) = Dictionary(C#)
+map(C++) = SortedDictionary(C#)
+
+for MultiThreaded Application:
+ConcurrentDictionary<T,T> 
