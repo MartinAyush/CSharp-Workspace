@@ -10,6 +10,13 @@ namespace ConsoleApp.StriverDsa
     public class LRUCache
     {
         // LRU => Least Recently Used cache
+        /*
+         * Using Double linked list to achieve the insertion at O(1)
+         * using Dictionary to map key to their node location
+         * Intution: when a node is used(get or put) move it next to head
+         * so when comes to removing the node, then remove the node which is previous to tail that is second last node
+         */
+        
         Dictionary<int, Node> _mappings;
         Node _head;
         Node _tail;
