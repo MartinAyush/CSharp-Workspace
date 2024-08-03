@@ -25,7 +25,9 @@ namespace ConsoleApp
     {
         public void Main()
         {
-            
+            string s = "  hello world  ";
+            //string ans = ReverseWords(s);
+            //Console.Write(ans);
         }
 
         public void PrintList(ListNode head)
@@ -56,30 +58,90 @@ namespace ConsoleApp
             return prev;
         }
 
-        public int[] FrequencySort(int[] nums)
+        public bool CanBeEqual(int[] target, int[] arr)
         {
-            Dictionary<int, int> visited = new Dictionary<int, int>();
+            int len1 = target.Length;
+            int len2 = arr.Length;
 
-            for(int i = 0; i < nums.Length; i++)
+            if(len1 != len2)
             {
-                if (visited.ContainsKey(nums[i]))
+                return false;
+            }
+
+            Dictionary<int, int> visited = new();
+            foreach(int num in target)
+            {
+                if (visited.ContainsKey(num))
                 {
-                    visited[nums[i]]++;
+                    visited[num]++;
                 }
                 else
                 {
-                    visited.Add(nums[i], 1);
+                    visited.Add(num, 1);
                 }
             }
 
-            var some = visited.OrderByDescending(x => x.Key).ThenBy(x => x.Value);
-            int[] ans = new int[nums.Length];
-            int idx = 0;
-            foreach(var item in some)
+            foreach(int num in arr)
             {
-                ans[idx++] = item.Key;
+                if (!visited.ContainsKey(num))
+                {
+                    return false;
+                }
+                else
+                {
+                    if (visited[num] == 1)
+                    {
+                        visited.Remove(num);
+                    }
+                    else
+                    {
+                        visited[num]--;
+
+                    }
+                }
             }
-            return ans;
+
+            return true;
+        }
+    }
+
+    public class MinStack
+    {
+        Stack<int> _minValues;
+        Stack<int> _mainStack;
+        public MinStack()
+        {
+            _minValues = new Stack<int>();
+            _mainStack = new Stack<int>();
+        }
+
+        public void Push(int val)
+        {
+            _mainStack.Push(val);
+            if(_minValues.Count == 0 || val <= _minValues.Peek())
+            {
+                _minValues.Push(val);
+            }
+        }
+
+        public void Pop()
+        {
+            if(_mainStack.Count > 0 && _minValues.Count > 0 && _mainStack.Peek() == _minValues.Peek())
+            {
+                _minValues.Pop();
+            }
+            _mainStack.Pop();
+
+        }
+
+        public int Top()
+        {
+            return _mainStack.Peek();
+        }
+
+        public int GetMin()
+        {
+            return _minValues.Peek();
         }
     }
 }
