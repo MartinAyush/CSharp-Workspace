@@ -17,18 +17,18 @@ namespace ConsoleApp.StriverDsa
          * so when comes to removing the node, then remove the node which is previous to tail that is second last node
          */
         
-        Dictionary<int, Node> _mappings;
-        Node _head;
-        Node _tail;
+        Dictionary<int, LRUCacheNode> _mappings;
+        LRUCacheNode _head;
+        LRUCacheNode _tail;
         int _cacheCapacity;
         
         public LRUCache(int capacity)
         {
-            _head = new Node(-1, -1);
-            _tail = new Node(-1, -1);
+            _head = new LRUCacheNode(-1, -1);
+            _tail = new LRUCacheNode(-1, -1);
             _head.Next = _tail;
             _tail.Prev = _head;
-            _mappings = new Dictionary<int, Node>();
+            _mappings = new Dictionary<int, LRUCacheNode>();
             _cacheCapacity = capacity;
         }
 
@@ -40,7 +40,7 @@ namespace ConsoleApp.StriverDsa
             }
             else
             {
-                Node tempNode = _mappings[key];
+                LRUCacheNode tempNode = _mappings[key];
                 Delete(tempNode);
                 InsertAfterHead(tempNode);
                 return tempNode.Value;
@@ -51,17 +51,17 @@ namespace ConsoleApp.StriverDsa
         {
             if (_mappings.ContainsKey(key))
             {
-                Node tempNode = _mappings[key];
+                LRUCacheNode tempNode = _mappings[key];
                 tempNode.Value = value;
                 Delete(tempNode);
                 InsertAfterHead(tempNode);
             }
             else
             {
-                Node newNode = new Node(key, value);
+                LRUCacheNode newNode = new LRUCacheNode(key, value);
                 if(_cacheCapacity == _mappings.Count)
                 {
-                    Node tempNode = _tail.Prev;
+                    LRUCacheNode tempNode = _tail.Prev;
                     Delete(tempNode);   
                     InsertAfterHead(newNode);
                 }
@@ -72,7 +72,7 @@ namespace ConsoleApp.StriverDsa
             }
         }
 
-        private void Delete(Node node)
+        private void Delete(LRUCacheNode node)
         {
             _mappings.Remove(node.Key);
 
@@ -80,7 +80,7 @@ namespace ConsoleApp.StriverDsa
             node.Next.Prev = node.Prev;
         }
 
-        private void InsertAfterHead(Node node)
+        private void InsertAfterHead(LRUCacheNode node)
         {
             _mappings[node.Key] = node;
 
@@ -91,14 +91,14 @@ namespace ConsoleApp.StriverDsa
         }
     }
 
-    class Node 
+    class LRUCacheNode 
     {
-        public Node Next { get; set; }
-        public Node Prev { get; set; }
+        public LRUCacheNode Next { get; set; }
+        public LRUCacheNode Prev { get; set; }
         public int Key { get; set; }
         public int Value { get; set; }
 
-        public Node(int key, int value)
+        public LRUCacheNode(int key, int value)
         {
             this.Next = null;
             this.Prev = null;
