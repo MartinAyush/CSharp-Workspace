@@ -18,6 +18,9 @@ using System.Reflection.Metadata.Ecma335;
 using System.Collections.Specialized;
 using System.Net.Http.Headers;
 using CustomExtensionMethods;
+using System.Text.RegularExpressions;
+using ConsoleApp.StriverDsa;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ConsoleApp
 {
@@ -25,12 +28,9 @@ namespace ConsoleApp
     {
         public void Main()
         {
-            string s = "  hello world  ";
-            //string ans = ReverseWords(s);
-            //Console.Write(ans);
         }
 
-        public void PrintList(ListNode head)
+        public void PrintLinkedList(ListNode head)
         {
             while(head != null)
             {
@@ -40,64 +40,33 @@ namespace ConsoleApp
             Console.WriteLine();
         }
 
-        public ListNode ReverseLL(ListNode head)
+        public void PrintArray(int[] arr)
         {
-            ListNode prev = null;
-            ListNode curr = head;
-            ListNode next;
-
-            while (curr != null)
+            foreach (int num in arr)
             {
-                next = curr.next;
-                curr.next = prev;
-
-                prev = curr;
-                curr = next;
+                Console.Write(num + " ");
             }
-
-            return prev;
+            Console.WriteLine();
         }
 
-        public bool CanBeEqual(int[] target, int[] arr)
+        public bool IsAnagram(string s, string t)
         {
-            int len1 = target.Length;
-            int len2 = arr.Length;
+            int[] visited = new int[26];
 
-            if(len1 != len2)
+            foreach(char ch in s)
             {
-                return false;
+                visited[ch - 'a']++;
             }
 
-            Dictionary<int, int> visited = new();
-            foreach(int num in target)
+            foreach(char ch in t)
             {
-                if (visited.ContainsKey(num))
+                if(visited[ch - 'a'] > 0)
                 {
-                    visited[num]++;
+                    visited[ch - 'a']--;
                 }
                 else
-                {
-                    visited.Add(num, 1);
-                }
-            }
-
-            foreach(int num in arr)
-            {
-                if (!visited.ContainsKey(num))
                 {
                     return false;
-                }
-                else
-                {
-                    if (visited[num] == 1)
-                    {
-                        visited.Remove(num);
-                    }
-                    else
-                    {
-                        visited[num]--;
-
-                    }
                 }
             }
 

@@ -11,14 +11,8 @@ namespace ConsoleApp
             Stopwatch timer = new Stopwatch();
             timer.Start();
 
-            var obj = new MinStack();
-            obj.Push(0);
-            obj.Push(1);
-            obj.Push(0);
-            Console.WriteLine(obj.GetMin());
-            obj.Pop();
-            //Console.WriteLine(obj.Top());
-            Console.WriteLine(obj.GetMin());
+            var obj = new CombinationSum();
+            obj.Main();
 
             timer.Stop();
             Console.WriteLine($"Time Elapsed: {timer.Elapsed.TotalSeconds} Sec");
