@@ -15,7 +15,7 @@ namespace ConsoleApp
         {
             int[] arr = { 1, 2, 1 };
             List<int> output = new List<int>();
-            PrintAllSubSequence(arr, 2, 0, ref output, 0);
+            PrintAllPermutationOfString("ABC", "");
         }
 
         public int countFriendsPairings(int n)
