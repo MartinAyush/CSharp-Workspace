@@ -23,6 +23,7 @@ namespace ConsoleApp
             }
             Console.WriteLine();
         }
+
         List<string> FindPath(int[][] mat)
         {
             List<string> ans = new List<string>();
