@@ -72,5 +72,29 @@ namespace ConsoleApp
 
             return true;
         }
+
+        public bool isPalindrome(string S)
+        {
+            int n = S.Length;
+            if(string.IsNullOrEmpty(S) || string.IsNullOrWhiteSpace(S) || n <= 1)
+            {
+                return true;
+            }
+
+            int start = 0;
+            int end = n - 1;
+
+            while(start < end)
+            {
+                if (S[start] != S[end])
+                {
+                    return false;
+                }
+                start++;
+                end--;
+            }
+
+            return true;
+        }
     }
 }

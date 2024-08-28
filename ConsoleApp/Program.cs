@@ -11,12 +11,11 @@ namespace ConsoleApp
             Stopwatch timer = new Stopwatch();
             timer.Start();
 
-            var obj = new CombinationSum();
+            var obj = new RecursionProblems2();
             obj.Main();
 
             timer.Stop();
             Console.WriteLine($"Time Elapsed: {timer.Elapsed.TotalSeconds} Sec");
         }
-        
     }
 }
